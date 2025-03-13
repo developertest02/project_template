@@ -1,1 +1,3 @@
-console.log("Hello from TypeScript template!");
+export function sum(a: number, b: number): number {
+  return a + b;
+}
